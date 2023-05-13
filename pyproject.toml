@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "django-with-aiogram"
+version = "0.1.0"
+description = ""
+authors = ["nusratullo2004 <122892486+nusratullo2004@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "django_with_aiogram"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2.1"
+python-dotenv = "^1.0.0"
+djangorestframework = "^3.14.0"
+aiogram = "^2.25.1"
+httpx = "^0.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
